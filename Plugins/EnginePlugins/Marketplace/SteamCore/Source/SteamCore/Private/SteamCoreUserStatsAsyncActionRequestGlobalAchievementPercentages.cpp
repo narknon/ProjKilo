@@ -1,0 +1,15 @@
+#include "SteamCoreUserStatsAsyncActionRequestGlobalAchievementPercentages.h"
+
+class UObject;
+class USteamCoreUserStatsAsyncActionRequestGlobalAchievementPercentages;
+
+USteamCoreUserStatsAsyncActionRequestGlobalAchievementPercentages* USteamCoreUserStatsAsyncActionRequestGlobalAchievementPercentages::RequestGlobalAchievementPercentagesAsync(UObject* WorldContextObject, float Timeout) {
+    return NULL;
+}
+
+void USteamCoreUserStatsAsyncActionRequestGlobalAchievementPercentages::HandleCallback(const FGlobalAchievementPercentagesReady& Data, bool bWasSuccessful) {
+}
+
+USteamCoreUserStatsAsyncActionRequestGlobalAchievementPercentages::USteamCoreUserStatsAsyncActionRequestGlobalAchievementPercentages() {
+}
+

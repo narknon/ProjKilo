@@ -1,0 +1,12 @@
+#include "SteamCoreWebAsyncActionGetGlobalAchievementPercentagesForApp.h"
+
+class UObject;
+class USteamCoreWebAsyncActionGetGlobalAchievementPercentagesForApp;
+
+USteamCoreWebAsyncActionGetGlobalAchievementPercentagesForApp* USteamCoreWebAsyncActionGetGlobalAchievementPercentagesForApp::GetGlobalAchievementPercentagesForAppAsync(UObject* WorldContextObject, const FString& GameId) {
+    return NULL;
+}
+
+USteamCoreWebAsyncActionGetGlobalAchievementPercentagesForApp::USteamCoreWebAsyncActionGetGlobalAchievementPercentagesForApp() {
+}
+
