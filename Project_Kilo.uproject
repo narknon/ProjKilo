@@ -102,10 +102,6 @@
 		}
 	],
 	"TargetPlatforms": [
-		"PS4",
-		"PS5",
-		"XboxOneGDK",
-		"XSX",
-		"GDK"
+		"WindowsNoEditor"
 	]
 }

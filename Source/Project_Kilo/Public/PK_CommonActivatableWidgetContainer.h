@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CommonActivatableWidgetStack.h"
+#include "Widgets/CommonActivatableWidgetContainer.h"
 #include "PK_CommonActivatableWidgetContainer.generated.h"
 
 UCLASS(Blueprintable)

@@ -3,7 +3,7 @@
 #include "Engine/DeveloperSettings.h"
 #include "SteamCoreWebSettings.generated.h"
 
-UCLASS(Blueprintable, DefaultConfig)
+UCLASS(Blueprintable, DefaultConfig, Config = Engine, meta = (DisplayName = "Steam Core Web"))
 class STEAMCOREWEB_API USteamCoreWebSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
