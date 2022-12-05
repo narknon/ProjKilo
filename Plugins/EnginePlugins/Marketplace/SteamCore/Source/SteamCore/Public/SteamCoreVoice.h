@@ -9,7 +9,7 @@ UCLASS(Blueprintable, EditInlineNew)
 class STEAMCORE_API USteamCoreVoice : public USoundWaveProcedural {
     GENERATED_BODY()
 public:
-    USteamCoreVoice();
+    USteamCoreVoice(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void DestroySteamCoreVoice(USteamCoreVoice* Obj);
     

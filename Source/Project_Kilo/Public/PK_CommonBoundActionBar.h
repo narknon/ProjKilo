@@ -22,6 +22,6 @@ private:
     bool bDisplayOwningPlayerActionsOnly;
     
 public:
-    UPK_CommonBoundActionBar();
+    UPK_CommonBoundActionBar(const FObjectInitializer& ObjectInitializer);
 };
 

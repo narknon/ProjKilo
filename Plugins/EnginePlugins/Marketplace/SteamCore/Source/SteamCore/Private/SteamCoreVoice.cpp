@@ -12,6 +12,8 @@ USteamCoreVoice* USteamCoreVoice::ConstructSteamCoreVoice(int32 AudioSampleRate)
 void USteamCoreVoice::AddAudioBuffer(const TArray<uint8>& Buffer) {
 }
 
-USteamCoreVoice::USteamCoreVoice() {
+USteamCoreVoice::USteamCoreVoice(const FObjectInitializer& ObjectInitializer)
+    : Super(ObjectInitializer) {
 }
+
 
