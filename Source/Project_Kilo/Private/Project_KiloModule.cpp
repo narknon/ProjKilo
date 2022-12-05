@@ -1,3 +1,3 @@
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_MODULE(FDefaultGameModuleImpl, Project_Kilo);
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, Project_Kilo, "Project_Kilo");
