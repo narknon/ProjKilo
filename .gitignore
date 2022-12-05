@@ -154,3 +154,5 @@ Binaries/Win64/Harvestella-Win64-Shipping.target
 Build/WindowsNoEditor/ChunkLayerInfo/pakchunklayers.txt
 WindowsNoEditor/Engine/Content/SlateDebug/Fonts/LastResort.tps
 WindowsNoEditor/Manifest_DebugFiles_Win64.txt
+Binaries/Win64/Project_Kilo.exe
+Binaries/Win64/Project_Kilo.target
